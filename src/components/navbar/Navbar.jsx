@@ -1,3 +1,4 @@
+import { Sidebar } from "../sidebar/Sidebar"
 import "./navbar.scss"
 import { motion } from "framer-motion"
 
@@ -5,7 +6,7 @@ export const Navbar = () => {
   return (
     <div className="navbar">
         {/* {Sidebar} */}
-        {/* <Sidebar/> */}
+        <Sidebar/>
         <div className="wrapper">
             <span>Faithful Aborisade</span>
             <div className="social">
