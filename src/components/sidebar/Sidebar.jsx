@@ -11,7 +11,7 @@ const variants = {
         transition:{
             delay:0,
             type:"spring",
-            stiffness:  20,
+            stiffness:  30,
             damping:40
         }
     },
@@ -39,3 +39,5 @@ export const Sidebar = () => {
     </motion.div>
   )
 }
+
+export default Sidebar

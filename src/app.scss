@@ -37,3 +37,33 @@ section{
         background-color: white;
     }
 }
+
+@mixin mobile{
+    @media screen and (max-width: 736px){
+        @content;
+        body{
+            background-color: #333;
+            color: white;
+        };
+    }
+}
+
+@mixin tablet{
+    @media (max-width: 1024px){
+        @content;
+        // body{
+        //     background-color: #333;
+        //     color: white;
+        // };
+    }
+}
+
+@mixin desktop{
+    @media screen and (max-width: 1366px){
+        @content;
+        body{
+            background-color: #333;
+            color: white;
+        };
+    }
+}

@@ -1,0 +1,97 @@
+@import "../../app.scss";
+
+.about-container {
+    width: 100%;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: transparent;
+    margin: 0;
+    box-shadow: none;
+
+    @include mobile {
+      border: none;
+      align-items: center;
+      gap: 20px;
+      padding: 10px;
+    }
+}
+
+.about-title {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+
+    @include mobile {
+      font-size: 1.8rem;
+    }
+}
+
+.about-description {
+    font-size: 1.2rem;
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    transition: color 0.3s ease-in-out;
+
+    @include mobile {
+      font-size: 1rem;
+    }
+}
+
+/* Further adjustments to Tech Stack Table */
+.tech-stack-container {
+    padding: 10px 20px; /* Reduce padding more */
+    text-align: center;
+    background-color: transparent;
+    margin-top: 0; /* Remove margin to move section further up */
+    border-radius: 8px;
+}
+
+.tech-stack-title {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px; /* Reduce space between title and table */
+}
+
+.tech-stack-wrapper {
+    width: 100%;
+    overflow-x: scroll; /* Ensure horizontal scrolling */
+    margin-bottom: 20px;
+}
+
+.tech-stack-table {
+    width: 100%;
+    min-width: 600px; /* Ensure minimum width for the table */
+    max-width: 70%; /* Ensure the table doesn't exceed the container */
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+    color: white;
+    white-space: nowrap; /* Prevent text wrapping and enforce scrolling */
+
+    th, td {
+        padding: 15px 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Subtle line between rows */
+    }
+
+    th {
+        background-color: rgba(255, 255, 255, 0.1);
+        font-weight: bold;
+        color: #00FFAB; /* Highlighted header color */
+    }
+
+    tr:hover td {
+        background-color: rgba(255, 255, 255, 0.05); /* Hover effect for rows */
+    }
+
+    td {
+        font-size: 1.1rem;
+    }
+
+    @include mobile {
+        td, th {
+            padding: 10px;
+            font-size: 1rem;
+        }
+    }
+}
