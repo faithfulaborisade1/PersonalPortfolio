@@ -43,15 +43,7 @@ export const About = () => {
                 <td>Intermediate</td>
               </tr>
               <tr>
-                <td>HTML</td>
-                <td>Intermediate</td>
-              </tr>
-              <tr>
-                <td>CSS</td>
-                <td>Intermediate</td>
-              </tr>
-              <tr>
-                <td>JavaScript</td>
+                <td>HTML, CSS, JavaScript</td>
                 <td>Intermediate</td>
               </tr>
               <tr>
