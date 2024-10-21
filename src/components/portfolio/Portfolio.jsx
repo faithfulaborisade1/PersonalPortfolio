@@ -8,7 +8,7 @@ const items = [
     id: 1,
     title: "News Agent Appication",
     img: "newsagent.webp",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "Collaborated in a team to develop a system that automated newspaper and magazine deliveries, optimizing daily routes, managing stock, and streamlining billing processes. Demonstrated leadership, teamwork, time management, and team organization, while applying agile methodology to ensure efficient progress and project completion.",
   },
   {
     id: 2,
